@@ -1,0 +1,23 @@
+.pagination-wrapper {
+  align-items: center;
+  display: inline-flex;
+  gap: 24px;
+  position: relative;
+}
+
+.pagination-wrapper .pagination-components {
+  flex: 0 0 auto !important;
+}
+
+.pagination-wrapper .frame-9 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.pagination-wrapper .pagination-instance {
+  margin-left: -2px !important;
+  margin-right: -2px !important;
+}

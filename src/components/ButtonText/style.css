@@ -1,0 +1,37 @@
+.button-text {
+  all: unset;
+  align-items: flex-start;
+  box-sizing: border-box;
+  display: inline-flex;
+  gap: 8px;
+  position: relative;
+}
+
+.button-text .sample-text {
+  color: var(--black-30);
+  font-family: "Inter", Helvetica;
+  letter-spacing: 0;
+  margin-top: -1px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.button-text .medium {
+  font-weight: 500;
+}
+
+.button-text .fourteen-px {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.button-text .regular {
+  font-weight: 400;
+}
+
+.button-text .sixteen-px {
+  font-size: 16px;
+  line-height: 24px;
+}

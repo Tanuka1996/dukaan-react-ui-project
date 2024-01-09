@@ -1,0 +1,35 @@
+.navbar-icon.instance-node-8 {
+  height: 24px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 24px;
+}
+
+.navbar-icon.name-plugin-state {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.navbar-icon .vector {
+  position: absolute;
+}
+
+.navbar-icon.state-false {
+  opacity: 0.8;
+}
+
+.name-plugin-state.state-true .vector {
+  height: 23px;
+  left: 2px;
+  top: 1px;
+  width: 21px;
+}
+
+.name-plugin-state.state-false .vector {
+  height: 18px;
+  left: 0;
+  top: 3px;
+  width: 24px;
+}

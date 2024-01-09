@@ -1,0 +1,26 @@
+.how-to-use {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  position: relative;
+}
+
+.how-to-use .text-wrapper {
+  color: #4c4c4c;
+  font-family: var(--caption-regular-font-family);
+  font-size: var(--caption-regular-font-size);
+  font-style: var(--caption-regular-font-style);
+  font-weight: var(--caption-regular-font-weight);
+  letter-spacing: var(--caption-regular-letter-spacing);
+  line-height: var(--caption-regular-line-height);
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.how-to-use .icons-outlined-info {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}

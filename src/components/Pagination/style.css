@@ -1,0 +1,103 @@
+.pagination {
+  align-items: center;
+  border-radius: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.pagination .outlined-chevron {
+  height: 18px !important;
+  position: relative !important;
+  width: 18px !important;
+}
+
+.pagination .button-text-instance {
+  flex: 0 0 auto !important;
+}
+
+.pagination .element {
+  font-family: "Inter", Helvetica;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.pagination.state-other-page {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 28px;
+  padding: 2px 0px;
+  width: 28px;
+}
+
+.pagination.state-hover {
+  background-color: var(--black-95);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  height: 28px;
+  padding: 2px 0px;
+  width: 28px;
+}
+
+.pagination.state-next {
+  background-color: var(--black-100);
+  border: 1px solid;
+  border-color: var(--black-85);
+  display: inline-flex;
+  gap: 6px;
+  padding: 6px 6px 6px 12px;
+}
+
+.pagination.state-current-page {
+  background-color: var(--primary-blue);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  height: 28px;
+  padding: 6px 8px;
+  width: 28px;
+}
+
+.pagination.state-previous {
+  background-color: var(--black-100);
+  border: 1px solid;
+  border-color: var(--black-85);
+  display: inline-flex;
+  gap: 6px;
+  padding: 6px 12px 6px 6px;
+}
+
+.pagination.state-other-page .element {
+  align-self: stretch;
+  color: var(--black-30);
+  font-weight: 400;
+}
+
+.pagination.state-hover .element {
+  align-self: stretch;
+  color: var(--black-30);
+  font-weight: 500;
+}
+
+.pagination.state-next .element {
+  color: var(--black-30);
+  font-weight: 500;
+}
+
+.pagination.state-current-page .element {
+  color: var(--black-100);
+  font-weight: 500;
+  margin-bottom: -1px;
+  margin-top: -3px;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.pagination.state-previous .element {
+  color: var(--black-30);
+  font-weight: 500;
+}

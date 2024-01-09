@@ -1,0 +1,180 @@
+.tag-info {
+  border-radius: 3px;
+  display: inline-flex;
+  position: relative;
+}
+
+.tag-info .NEW {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tag-info.type-paid {
+  background-color: #17b31b26;
+}
+
+.tag-info.type-unpaid {
+  background-color: #4d4d4d26;
+}
+
+.tag-info.text-0-semi-bold {
+  align-items: center;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.tag-info.text-0-medium {
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.tag-info.type-COD {
+  background-color: #ee741f26;
+}
+
+.tag-info.type-manual {
+  background-color: #78380c26;
+}
+
+.tag-info.type-draft {
+  background-color: var(--secondary-yellow);
+  padding: 2px 6px;
+}
+
+.tag-info.type-new {
+  background-color: var(--secondary-green);
+  padding: 2px 6px;
+}
+
+.tag-info.type-beta {
+  background-color: #ffffff4c;
+  padding: 2px 6px;
+}
+
+.tag-info.type-cash {
+  background-color: #df1e5b26;
+}
+
+.tag-info.twenty-px.type-cash {
+  padding: 2px 8px;
+}
+
+.tag-info.twenty-two-px.type-unpaid {
+  padding: 1px 8px;
+}
+
+.tag-info.twenty-px.type-COD {
+  padding: 2px 8px;
+}
+
+.tag-info.twenty-px.type-manual {
+  padding: 2px 8px;
+}
+
+.tag-info.twenty-px.type-return {
+  padding: 2px 6px;
+}
+
+.tag-info.twenty-px.type-paid {
+  padding: 2px 8px;
+}
+
+.tag-info.text-0-semi-bold.type-return {
+  background-color: #e50b2026;
+}
+
+.tag-info.twenty-two-px.type-cash {
+  padding: 1px 8px;
+}
+
+.tag-info.twenty-two-px.type-manual {
+  padding: 1px 8px;
+}
+
+.tag-info.twenty-two-px.type-paid {
+  padding: 1px 8px;
+}
+
+.tag-info.twenty-px.type-unpaid {
+  padding: 2px 8px;
+}
+
+.tag-info.twenty-two-px.type-return {
+  padding: 1px 6px;
+}
+
+.tag-info.type-return.text-0-medium {
+  background-color: var(--secondary-red);
+}
+
+.tag-info.twenty-two-px.type-COD {
+  padding: 1px 8px;
+}
+
+.tag-info.type-paid .NEW {
+  color: var(--secondary-green);
+}
+
+.tag-info.type-unpaid .NEW {
+  color: var(--black-30);
+}
+
+.tag-info.text-0-semi-bold .NEW {
+  font-family: "Galano Grotesque-SemiBold", Helvetica;
+  font-weight: 600;
+  letter-spacing: 0;
+  text-align: right;
+}
+
+.tag-info.text-0-medium .NEW {
+  font-family: var(--caption-medium-font-family);
+  font-size: var(--caption-medium-font-size);
+  font-style: var(--caption-medium-font-style);
+  font-weight: var(--caption-medium-font-weight);
+  letter-spacing: var(--caption-medium-letter-spacing);
+  line-height: var(--caption-medium-line-height);
+}
+
+.tag-info.type-COD .NEW {
+  color: var(--primary-orange);
+}
+
+.tag-info.type-manual .NEW {
+  color: #78380c;
+}
+
+.tag-info.type-draft .NEW {
+  color: var(--black-12);
+}
+
+.tag-info.type-new .NEW {
+  color: var(--black-100);
+}
+
+.tag-info.type-beta .NEW {
+  color: var(--black-100);
+}
+
+.tag-info.type-cash .NEW {
+  color: var(--secondary-raspberry);
+}
+
+.tag-info.text-0-semi-bold.type-return .NEW {
+  color: var(--secondary-red);
+}
+
+.tag-info.twenty-px.text-0-semi-bold .NEW {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.tag-info.twenty-two-px.text-0-semi-bold .NEW {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.tag-info.type-return.text-0-medium .NEW {
+  color: var(--black-100);
+}

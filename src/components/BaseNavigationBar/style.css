@@ -1,0 +1,105 @@
+.base-navigation-bar {
+  align-items: center;
+  background-color: var(--secondary-navbar);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 800px;
+  padding: 16px 10px;
+  position: relative;
+  width: 224px;
+}
+
+.base-navigation-bar .nav-top {
+  align-items: center;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 24px;
+  margin-left: -2px;
+  margin-right: -2px;
+  position: relative;
+}
+
+.base-navigation-bar .company-icon-image {
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+  width: 192px;
+}
+
+.base-navigation-bar .rectangle {
+  background-color: var(--black-100);
+  border-radius: 4px;
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.base-navigation-bar .frame-12 {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+  justify-content: center;
+  position: relative;
+}
+
+.base-navigation-bar .text-wrapper-12 {
+  align-self: stretch;
+  color: var(--black-100);
+  font-family: var(--body-1-medium-font-family);
+  font-size: var(--body-1-medium-font-size);
+  font-style: var(--body-1-medium-font-style);
+  font-weight: var(--body-1-medium-font-weight);
+  letter-spacing: var(--body-1-medium-letter-spacing);
+  line-height: var(--body-1-medium-line-height);
+  margin-top: -1px;
+  position: relative;
+}
+
+.base-navigation-bar .text-wrapper-13 {
+  align-self: stretch;
+  color: var(--black-100);
+  font-family: "Galano Grotesque-Regular", Helvetica;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 16px;
+  opacity: 0.8;
+  position: relative;
+  text-decoration: underline;
+}
+
+.base-navigation-bar .image {
+  height: 39px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 39px;
+}
+
+.base-navigation-bar .icon-instance-node {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}
+
+.base-navigation-bar .pages {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 4px;
+  position: relative;
+}
+
+.base-navigation-bar .design-component-instance-node {
+  flex: 0 0 auto !important;
+}

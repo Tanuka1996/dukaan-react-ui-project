@@ -1,0 +1,606 @@
+.payments-cashfree {
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.payments-cashfree .div-2 {
+  background-color: var(--black-98);
+  height: 1482px;
+  position: relative;
+  width: 1440px;
+}
+
+.payments-cashfree .dashboard-header-instance {
+  left: 224px !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.payments-cashfree .dashboard-header-2 {
+  font-family: var(--body-1-regular-font-family) !important;
+  font-size: var(--body-1-regular-font-size) !important;
+  font-style: var(--body-1-regular-font-style) !important;
+  font-weight: var(--body-1-regular-font-weight) !important;
+  letter-spacing: var(--body-1-regular-letter-spacing) !important;
+  line-height: var(--body-1-regular-line-height) !important;
+}
+
+.payments-cashfree .icon-instance-node-2 {
+  height: 14px !important;
+  position: relative !important;
+  width: 14px !important;
+}
+
+.payments-cashfree .dashboard-header-3 {
+  font-family: "Inter", Helvetica !important;
+  font-size: 12px !important;
+  font-style: unset !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: 16px !important;
+}
+
+.payments-cashfree .design-component-instance-node-2 {
+  font-family: "Inter", Helvetica !important;
+}
+
+.payments-cashfree .frame-15 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  left: 256px;
+  position: absolute;
+  top: 96px;
+  width: 1152px;
+}
+
+.payments-cashfree .frame-16 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 100%;
+}
+
+.payments-cashfree .frame-17 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.payments-cashfree .frame-18 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.payments-cashfree .text-wrapper-16 {
+  color: var(--black-12);
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.payments-cashfree .group-wrapper {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+}
+
+.payments-cashfree .overlap-group-wrapper {
+  height: 36px;
+  margin-right: -2px;
+  position: relative;
+  width: 139px;
+}
+
+.payments-cashfree .overlap-group {
+  background-color: var(--black-100);
+  border: 1px solid;
+  border-color: var(--black-85);
+  border-radius: 4px;
+  height: 36px;
+  position: relative;
+  width: 137px;
+}
+
+.payments-cashfree .text-wrapper-17 {
+  color: var(--black-30);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  left: 13px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  top: 5px;
+  white-space: nowrap;
+}
+
+.payments-cashfree .icons-arrow {
+  height: 16px !important;
+  left: 106px !important;
+  position: absolute !important;
+  top: 9px !important;
+  width: 16px !important;
+}
+
+.payments-cashfree .frame-19 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.payments-cashfree .frame-wrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.payments-cashfree .frame-20 {
+  align-items: flex-start;
+  background-color: var(--black-100);
+  border-radius: var(--spacings-spacing-spacing-04);
+  box-shadow: var(--shadow-card);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 16px;
+  padding: 20px;
+  position: relative;
+}
+
+.payments-cashfree .frame-21 {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.payments-cashfree .frame-22 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  position: relative;
+}
+
+.payments-cashfree .text-wrapper-18 {
+  color: var(--black-30);
+  font-family: "Inter", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 24px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.payments-cashfree .text-wrapper-19 {
+  color: var(--black-12);
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 38px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.payments-cashfree .frame-23 {
+  align-items: center;
+  align-self: stretch;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.payments-cashfree .frame-24 {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  position: relative;
+}
+
+.payments-cashfree .text-wrapper-20 {
+  color: var(--black-12);
+  font-family: "Inter", Helvetica;
+  font-size: 32px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 38px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.payments-cashfree .frame-25 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.payments-cashfree .text-wrapper-21 {
+  color: var(--black-12);
+  font-family: "Inter", Helvetica;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 28px;
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.payments-cashfree .template {
+  align-items: flex-end;
+  background-color: var(--black-100);
+  border-radius: 8px;
+  box-shadow: var(--shadow-card);
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  overflow: hidden;
+  padding: 12px 12px 24px;
+  position: relative;
+}
+
+.payments-cashfree .frame-26 {
+  flex: 0 0 auto;
+  position: relative;
+}
+
+.payments-cashfree .frame-27 {
+  align-items: flex-end;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.payments-cashfree .input-search-box-instance {
+  width: 248px !important;
+}
+
+.payments-cashfree .input-search-box-2 {
+  font-family: "Inter", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+}
+
+.payments-cashfree .frame-28 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  position: relative;
+}
+
+.payments-cashfree .frame-29 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.payments-cashfree .button-sort {
+  all: unset;
+  align-items: center;
+  background-color: var(--black-100);
+  border: 1px solid;
+  border-color: var(--black-85);
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 6px;
+  padding: 6px 12px;
+  position: relative;
+}
+
+.payments-cashfree .outlined-sort {
+  height: 16px !important;
+  position: relative !important;
+  width: 16px !important;
+}
+
+.payments-cashfree .group-2 {
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.payments-cashfree .header {
+  align-items: center;
+  background-color: var(--black-95);
+  border-radius: 4px;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 40px;
+  padding: 10px 12px;
+  position: relative;
+  width: 1128px;
+}
+
+.payments-cashfree .cell-header-row {
+  align-items: flex-start;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.payments-cashfree .text-icon {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  position: relative;
+}
+
+.payments-cashfree .design-component-instance-node-3 {
+  flex: 0 0 auto !important;
+}
+
+.payments-cashfree .table-type-instance {
+  font-family: "Inter", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+}
+
+.payments-cashfree .resizable-spacer {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 90px;
+  margin-top: -1px;
+  opacity: 0;
+  position: relative;
+}
+
+.payments-cashfree .end-point {
+  border-radius: 0;
+  height: 1px;
+  position: relative;
+  width: 1px;
+}
+
+.payments-cashfree .end-point-2 {
+  border-radius: 0;
+  height: 1px;
+  margin-right: -1px;
+  position: relative;
+  width: 1px;
+}
+
+.payments-cashfree .triangle-icon {
+  height: 8px !important;
+  position: relative !important;
+  width: 8px !important;
+}
+
+.payments-cashfree .cell-header-row-2 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.payments-cashfree .table-type-2 {
+  font-family: "Inter", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 500 !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+  text-align: right !important;
+}
+
+.payments-cashfree .cell-header-row-3 {
+  align-items: flex-end;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  position: relative;
+}
+
+.payments-cashfree .resizable-spacer-2 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 90px;
+  opacity: 0;
+  position: relative;
+}
+
+.payments-cashfree .frame-30 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 4px;
+  margin-top: -1px;
+  position: relative;
+}
+
+.payments-cashfree .data-table {
+  align-items: center;
+  background-color: var(--black-100);
+  display: flex;
+  gap: 40px;
+  height: 48px;
+  padding: 14px 12px;
+  position: relative;
+  width: 1128px;
+}
+
+.payments-cashfree .column {
+  align-items: flex-start;
+  background-color: var(--black-100);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.payments-cashfree .resizable-spacer-3 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 376px;
+  margin-right: -130px;
+  margin-top: -1px;
+  opacity: 0;
+  position: relative;
+}
+
+.payments-cashfree .table-type-3 {
+  color: var(--black-12) !important;
+  font-family: "Inter", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+}
+
+.payments-cashfree .resizable-spacer-4 {
+  align-items: flex-start;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 120px;
+  margin-top: -1px;
+  opacity: 0;
+  position: relative;
+}
+
+.payments-cashfree .column-2 {
+  align-items: flex-end;
+  background-color: var(--black-100);
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  flex-grow: 1;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.payments-cashfree .table-type-4 {
+  color: var(--black-12) !important;
+  font-family: "Inter", Helvetica !important;
+  font-size: 14px !important;
+  font-style: unset !important;
+  font-weight: 400 !important;
+  letter-spacing: 0 !important;
+  line-height: 20px !important;
+  text-align: right !important;
+}
+
+.payments-cashfree .divider-instance {
+  background-image: url(../../../static/img/line-21.svg) !important;
+  left: 12px !important;
+  position: absolute !important;
+  top: 47px !important;
+  width: 1104px !important;
+}
+
+.payments-cashfree .frame-31 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+}
+
+.payments-cashfree .frame-32 {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  position: relative;
+}
+
+.payments-cashfree .navbar-instance {
+  height: 1482px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+}
+
+.payments-cashfree .navbar-icon-4 {
+  height: 20px !important;
+  position: relative !important;
+  width: 20px !important;
+}

@@ -1,0 +1,35 @@
+.icons-menu .instance-node {
+  height: 36px !important;
+  left: 0 !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 36px !important;
+}
+
+.icons-menu {
+  border-radius: 18px;
+  height: 36px;
+  position: relative;
+  width: 36px;
+}
+
+.icons-menu .polygon {
+  height: 8px;
+  left: 12px;
+  position: absolute;
+  top: 15px;
+  width: 12px;
+}
+
+.icons-menu.normal {
+  background-color: #e6e6e6;
+  overflow: hidden;
+}
+
+.icons-menu.active {
+  background-color: #146eb41a;
+}
+
+.icons-menu.hover {
+  background-color: #d9d9d9;
+}

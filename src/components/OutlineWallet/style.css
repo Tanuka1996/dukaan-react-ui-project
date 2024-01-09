@@ -1,0 +1,13 @@
+.outline-wallet {
+  height: 24px;
+  position: relative;
+  width: 24px;
+}
+
+.outline-wallet .wallet {
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 24px;
+}

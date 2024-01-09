@@ -1,0 +1,104 @@
+.tag-status {
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  position: relative;
+}
+
+.tag-status .ellipse {
+  border-radius: 5px;
+  height: 10px;
+  position: relative;
+  width: 10px;
+}
+
+.tag-status .delivered-2 {
+  margin-top: -1px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.tag-status .served {
+  background-color: var(--secondary-raspberry);
+}
+
+.tag-status .failed {
+  background-color: var(--secondary-red);
+}
+
+.tag-status .cancelled {
+  background-color: var(--secondary-red);
+}
+
+.tag-status .pending {
+  background-color: var(--secondary-yellow);
+}
+
+.tag-status .completed {
+  background-color: var(--secondary-green);
+}
+
+.tag-status .unpaid {
+  background-color: var(--secondary-yellow);
+}
+
+.tag-status .ready-to-ship {
+  background-color: var(--secondary-yellow);
+}
+
+.tag-status .cancelled-by-buyer {
+  background-color: var(--secondary-red);
+}
+
+.tag-status .preparing {
+  background-color: var(--primary-orange);
+}
+
+.tag-status .delivered {
+  background-color: var(--primary-blue);
+}
+
+.tag-status .rejected {
+  background-color: var(--secondary-red);
+}
+
+.tag-status .accepted {
+  background-color: var(--secondary-green);
+}
+
+.tag-status .processing {
+  background-color: var(--black-60);
+}
+
+.tag-status .received {
+  background-color: var(--secondary-green);
+}
+
+.tag-status .shipped {
+  background-color: var(--primary-orange);
+}
+
+.tag-status .successful {
+  background-color: var(--secondary-green);
+}
+
+.tag-status .weight-regular {
+  color: var(--black-12);
+  font-family: var(--body-2-regular-font-family);
+  font-size: var(--body-2-regular-font-size);
+  font-style: var(--body-2-regular-font-style);
+  font-weight: var(--body-2-regular-font-weight);
+  letter-spacing: var(--body-2-regular-letter-spacing);
+  line-height: var(--body-2-regular-line-height);
+}
+
+.tag-status .weight-medium {
+  color: var(--black-50);
+  font-family: var(--sub-title-medium-font-family);
+  font-size: var(--sub-title-medium-font-size);
+  font-style: var(--sub-title-medium-font-style);
+  font-weight: var(--sub-title-medium-font-weight);
+  letter-spacing: var(--sub-title-medium-letter-spacing);
+  line-height: var(--sub-title-medium-line-height);
+}

@@ -1,0 +1,25 @@
+.icons {
+  align-items: flex-start;
+  display: inline-flex;
+  gap: 12px;
+  position: relative;
+}
+
+.icons .icons-menu-2 {
+  height: 40px !important;
+  position: relative !important;
+  width: 40px !important;
+}
+
+.icons .icons-menu-instance {
+  height: 9px !important;
+  left: 13px !important;
+  top: 17px !important;
+  width: 14px !important;
+}
+
+.icons .icons-menu-3 {
+  border-radius: 20px !important;
+  height: 40px !important;
+  width: 40px !important;
+}
